@@ -14,6 +14,7 @@ Please upload the tidy data set created in step 5 of the instructions. Please up
 
 
 |Data Set Characteristics:|Multivariate, Time-Series1|Number of Instances:|10299|Area:|Computer|
+| :------------ | :----------- |  :----------- |  :----------- |  :----------- |  :----------- |
 |Attribute Characteristics:|N/A|Number of Attributes:|561|Date Donated|2012-12-10|
 |Associated Tasks:|Classification, Clustering|Missing Values?|N/A|Number of Web Hits:|136460|
 
