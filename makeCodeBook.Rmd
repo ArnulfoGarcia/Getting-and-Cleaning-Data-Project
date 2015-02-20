@@ -1,0 +1,50 @@
+# Codebook for Getting and Cleaning Data Project
+
+This codebook was created on `r as.character(Sys.time())`.
+
+* [Variable list and descriptions](## Variable list and descriptions)
+* [Dataset structure](## Dataset structure)
+* [Some data from the output](## Some data from the output)
+* [Summary of variables](## Summary of variables)
+* [Save data to file](## Save data to file)
+
+## Variable list and descriptions
+
+Variable name    | Description
+-----------------|------------
+Activity         | Activity name
+Subject          | ID the subject who performed the activity for each window sample. Its range is from 1 to 30.
+Unit             | Feature: Time domain signal or frequency domain signal (Time or Freq)
+Device           | Feature: Measuring instrument (Accelerometer or Gyroscope)
+Originator       | Feature: Originator for acceleration signal (Body or Gravity)
+Jerk             | Feature: Jerk signal logic (True or False)
+Magnitude        | Feature: Magnitude of the signals calculated using the Euclidean norm, logic(True or False)
+Axis             | Feature: 3-axial signals in the X, Y and Z directions (X, Y, or Z)
+Mean             | Feature: Average mean values
+Std              | Feature: Average standard deviation values
+
+## Dataset structure
+
+```{r}
+str(shrink.data)
+```
+
+## Some data from the output
+
+```{r}
+shrink.data
+```
+
+## Summary of variables
+
+```{r}
+summary(shrink.data)
+```
+
+## Save data to file
+
+Save data table objects to a tab-delimited text file called `data.txt`.
+
+```{r save}
+write.table(shrink.data, file = "tidydata.txt", row.names = F)
+```
