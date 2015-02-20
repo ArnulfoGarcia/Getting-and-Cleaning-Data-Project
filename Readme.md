@@ -1,9 +1,9 @@
 **This repository is for the Coursera Course:**
 **Getting and Claning Data Project**
 
-|**Contents:**|
-|---------------|---------------|
-|Project_description.htm		|with the project guidelines|
+**Contents:**
+
+|Project_description.htm	|with the project guidelines|
 |codebook.html 				|the codebook for project in html|
 |codebook.md 				|the codebook for project |
 |makeCodeBook.Rmd 			|the blueprint for codebook  |

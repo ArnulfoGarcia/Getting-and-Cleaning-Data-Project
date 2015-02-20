@@ -11,12 +11,10 @@ Here are the data for the project:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Please upload the tidy data set created in step 5 of the instructions. Please upload your data set as a txt file created with write.table() using row.name=FALSE (do not cut and paste a dataset directly into the text box, as this may cause errors saving your submission).
-----------------------------------------------------------------
+
 
 |Data Set Characteristics:|Multivariate, Time-Series1|Number of Instances:|10299|Area:|Computer|
-|-------------|-----------|-----------|-----------|---------|----------|
 |Attribute Characteristics:|N/A|Number of Attributes:|561|Date Donated|2012-12-10|
-|-------------|-----------|-----------|-----------|---------|----------|
 |Associated Tasks:|Classification, Clustering|Missing Values?|N/A|Number of Web Hits:|136460|
 
 **Source:**
@@ -53,7 +51,7 @@ N/A
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-** The Tasks:**
+**The Tasks:**
 
  You should create one R script called run_analysis.R that does the following. 
 
